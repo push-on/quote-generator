@@ -1,10 +1,13 @@
-# quote generator
+# 🦉 quote generator
 
+# stack
 - react
 - TypeScript
 - tailwind
 - vite
 - swc
+
+## Code review
 
 ```tsx
 import { useState, useEffect } from "react";
