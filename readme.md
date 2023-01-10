@@ -1,4 +1,5 @@
 # 🦉 quote generator
+`⭕ check live site on netlify 👉` [quote-gen-pushon](https://quote-gen-pushon.netlify.app/)
 
 # stack
 - react
