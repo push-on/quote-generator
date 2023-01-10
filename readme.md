@@ -1,6 +1,9 @@
 # 🦉 quote generator
 `⭕ check live site on netlify 👉` [quote-gen-pushon](https://quote-gen-pushon.netlify.app/)
 
+# image preview 
+![image](https://user-images.githubusercontent.com/50992812/211479217-40d02935-1ced-4073-8dad-caf8a4e6af1d.png)
+
 # stack
 - react
 - TypeScript
