@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
+@layer base {
   body {
-    @apply ;
+    @apply bg-slate-900 text-slate-50;
   }
-} */
+}
 
-/* @layer components {
-  .Custom-class {
-    @apply ;
+@layer components {
+  .btn-blue {
+    @apply duration-100 px-7 py-2 bg-lime-600/50 hover:bg-lime-500/50 active:bg-lime-600/50 rounded-xl text-xl capitalize outline-none border-none backdrop-blur-lg;
   }
-} */
+}
