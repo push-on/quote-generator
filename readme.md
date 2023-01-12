@@ -1,15 +1,12 @@
 # 🦉 quote generator
+
 `⭕ check live site on netlify 👉` [quote-gen-pushon](https://quote-gen-pushon.netlify.app/)
 
-# image preview 
+# image preview
+
 ![image](https://user-images.githubusercontent.com/50992812/211479217-40d02935-1ced-4073-8dad-caf8a4e6af1d.png)
 
-# stack
-- react
-- TypeScript
-- tailwind
-- vite
-- swc
+# const stack = [ react , typeScript, tailwind, vite, swc ]
 
 ## Code review
 
@@ -31,7 +28,7 @@ export const App = () => {
   // used fetch insted of axios
   const fetchAdvice = async () => {
     setLoading(true);
-    
+
     const response = await fetch(baseUrl);
     const data: Advice = await response.json();
     setAdvice(data.slip.advice);
